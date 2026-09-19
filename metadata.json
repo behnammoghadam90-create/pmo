@@ -1,0 +1,6 @@
+{
+  "name": "کیهان صنعت قائم - سامانه جامع مدیریت پروژه سازمان",
+  "description": "سامانه یکپارچه مدیریت، پایش و کنترل پروژه‌های سازمانی شرکت کیهان صنعت قائم مبتنی بر متدولوژی مدیریت ارزش کسب‌شده (EVM) و سطوح دسترسی RBAC",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

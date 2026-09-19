@@ -1,0 +1,142 @@
+/**
+ * Persian Font Declarations
+ * - Vazirmatn (Regular 400, Medium 500, SemiBold 600, Bold 700)
+ * - Suls (Traditional Calligraphy for Executive Headers, Badges & Seals)
+ */
+
+/* 1. Vazirmatn - Regular (400) */
+@font-face {
+  font-family: 'Vazirmatn';
+  src: url('/fonts/Vazirmatn-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 2. Vazirmatn - Medium (500) */
+@font-face {
+  font-family: 'Vazirmatn';
+  src: url('/fonts/Vazirmatn-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 3. Vazirmatn - SemiBold (600) */
+@font-face {
+  font-family: 'Vazirmatn';
+  src: url('/fonts/Vazirmatn-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 4. Vazirmatn - Bold (700) */
+@font-face {
+  font-family: 'Vazirmatn';
+  src: url('/fonts/Vazirmatn-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 5. Suls (ثلس) - Traditional Persian Calligraphy */
+@font-face {
+  font-family: 'Suls';
+  src: url('/fonts/Suls.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Suls';
+  src: url('/fonts/Suls.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Aliases mapping to Vazirmatn for complete font fallback support */
+@font-face {
+  font-family: 'AppFont';
+  src: url('/fonts/Vazirmatn-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AppFont';
+  src: url('/fonts/Vazirmatn-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AppFont';
+  src: url('/fonts/Vazirmatn-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AppFont';
+  src: url('/fonts/Vazirmatn-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'HeadingFont';
+  src: url('/fonts/Vazirmatn-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'FaNum';
+  src: url('/fonts/Vazirmatn-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'FaNum';
+  src: url('/fonts/Vazirmatn-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Font utility classes */
+.font-vazir {
+  font-family: 'Vazirmatn', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+}
+
+.font-vazir-bold {
+  font-family: 'Vazirmatn', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+  font-weight: 700 !important;
+}
+
+.font-heading {
+  font-family: 'Vazirmatn', sans-serif !important;
+  font-weight: 700;
+}
+
+.font-fanum, .persian-num {
+  font-family: 'Vazirmatn', sans-serif !important;
+  font-feature-settings: 'ss01' 1, 'tnum' 1 !important;
+  font-variant-numeric: tabular-nums !important;
+}
+
+.font-mono {
+  font-family: 'Vazirmatn', sans-serif !important;
+  font-feature-settings: 'ss01' 1, 'tnum' 1 !important;
+  font-variant-numeric: tabular-nums !important;
+}

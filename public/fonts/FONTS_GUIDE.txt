@@ -1,0 +1,28 @@
+# راهنمای قرار دادن فایل‌های فونت اختصاصی (Custom Fonts Guide)
+
+این پوشه (`/public/fonts/`) برای قرار دادن فایل‌های فونت مورد نظر شما آماده شده است.
+فرمت‌های پشتیبانی‌شده: `.woff2` (پیشنهادی)، `.woff` و `.ttf`.
+
+### اسامی استاندارد آماده‌شده برای فایل‌های فونت:
+
+شما می‌توانید فایل‌های فونت دلخواه خود را با یکی از اسامی زیر در همین پوشه (`/public/fonts/`) آپلود یا کپی کنید:
+
+#### ۱. فونت اصلی سامانه (AppFont / PrimaryFont / IRANSans / Dana / Yekan / Shabnam):
+- `AppFont-Light.woff2` (یا `.woff` یا `.ttf`) -> وزن ۳۰۰ (Light)
+- `AppFont-Regular.woff2` (یا `.woff` یا `.ttf`) -> وزن ۴۰۰ (Regular / نرمال)
+- `AppFont-Medium.woff2` (یا `.woff` یا `.ttf`) -> وزن ۵۰۰ (Medium / متوسط)
+- `AppFont-SemiBold.woff2` (یا `.woff` یا `.ttf`) -> وزن ۶۰۰ (SemiBold / نیمه‌ضخیم)
+- `AppFont-Bold.woff2` (یا `.woff` یا `.ttf`) -> وزن ۷۰۰ (Bold / ضخیم)
+- `AppFont-ExtraBold.woff2` (یا `.woff` یا `.ttf`) -> وزن ۸۰۰ (ExtraBold / خیلی ضخیم)
+- `AppFont-Black.woff2` (یا `.woff` یا `.ttf`) -> وزن ۹۰۰ (Black / مشکی سنگین)
+
+#### ۲. فونت اختصاصی عناوین و تیترها (HeadingFont):
+- `HeadingFont-Bold.woff2` (یا `.woff` یا `.ttf`)
+- `HeadingFont-Black.woff2` (یا `.woff` یا `.ttf`)
+
+#### ۳. فونت اعداد فارسی (FaNum / NumbersFont - در صورت نیاز به اعداد خاص):
+- `FaNum-Regular.woff2` (یا `.woff` یا `.ttf`)
+- `FaNum-Bold.woff2` (یا `.woff` یا `.ttf`)
+
+---
+نکته: به محض اینکه فایل‌های فونت را با هر یک از نام‌های بالا یا نام اختصاصی در این مسیر قرار دهید یا نام آن‌ها را به من اعلام کنید، تعاریف فعال شده و در کل بخش‌های سامانه اعمال خواهند شد.
